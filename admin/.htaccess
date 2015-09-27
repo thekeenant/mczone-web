@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "MC Zone Admin"
+AuthUserFile /var/www/html/admin/.htpasswd
+Require valid-user

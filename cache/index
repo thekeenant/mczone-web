@@ -1,0 +1,36 @@
+<div class="row marketing">
+  <div class="span4">
+    <i class="icon-beaker icon-large"></i>
+    <h2>Variety</h2>
+    <p>
+      MC Zone isn't your average Minecraft server. We combine many mini games into one server chain to provide you 
+      with the most variety of them all! Play games such as Sky Wars, The Hunger Games, and The Walls at MC Zone!
+    </p>
+    <p>
+      <a class="btn" href="/maps">View the Servers »</a>
+    </p>
+  </div>
+  <div class="span4">
+    <i class="icon-globe icon-large"></i>
+    <h2>Competition</h2>
+    <p>
+      With over 75,000, we provide you with great completition. Rather than playing the same players over and over,
+      fight new players each game here at MC Zone! We keep track of tons of stats so you can watch your progress!
+    </p>
+    <p>
+      <a class="btn" href="/stats">Check the Stats »</a>
+    </p>
+  </div>
+  <div class="span4">
+    <i class="icon-group icon-large"></i>
+    <h2>Reliability</h2>
+    <p>
+      We take pride in our server's reliability and stability. We offer over 50 servers for you to play on, making sure
+      we rarely have full servers. We have a community full of mods and admins to help you out. Visit the forum for help
+      and support regarding MC Zone!
+    </p>
+    <p>
+      <a class="btn" href="/play">Visit the Forum »</a>
+    </p>
+  </div>
+</div>

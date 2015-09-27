@@ -1,0 +1,300 @@
+@import url('bootstrap.css');
+@import url('font-awesome.css');
+@import url('textarea.css');
+
+/* Google Fonts
+-------------------------------------------------- */
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.nav-collapse .hover {
+    color: #555555;
+  text-decoration: none;
+  background-color: #e5e5e5;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+     -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/SrH4OiQlr11FDKIskY9CXQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/gvU2Gsy-6VVrDSxbk9hveQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/RiA0RoXNC0igSSh9RLYT1g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/nH4iWPTNejFfjJAKbGZovg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 100;
+  src: local('Lato Hairline Italic'), local('Lato-HairlineItalic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/vHC59XngVihXV7znfFzqcw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/yuKj1P-OjCQ4RKPYxOZQjQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/AOEocLZj9wJ8DAE8AlYeJg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/V0sUsnlHcmNDz5WQ_D0v8Q.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/dbf0W1sjisQrUik13gG-UA.woff) format('woff');
+}
+
+
+/* Shop Page
+-------------------------------------------------- */
+
+.pet-shop {
+  width: 100%;
+}
+
+.back {
+  color: #999;
+  font-size: 17.5px;
+}
+
+.back:hover {
+  text-decoration: none;
+  color: #777;
+}
+
+.pet-shop .pet-icon {
+  width: 20%;
+}
+
+.rank {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.thumbnails .lead {
+  text-decoration: none;
+  color: #555;
+}
+
+.thumbnails a {
+  text-decoration: none;
+}
+
+.thumbnails a.rank-link {
+  display: block;
+}
+
+.thumbnails a:hover {
+  text-decoration: none;
+}
+
+.thumbnails .info {
+  box-shadow: rgba(200,200,200,0.7) 0px 0px 10px 0px;
+}
+
+/* Index Page
+-------------------------------------------------- */
+.marketing {
+  text-align: center;
+  color: #5a5a5a;
+}
+.marketing h1 {
+  margin: 60px 0 10px;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.marketing h2 {
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+.marketing p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.marketing .marketing-byline {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #999;
+}
+.marketing img {
+  display: block;
+  margin: 0 auto 0px;
+}
+
+.icon-large {
+  font-size: 100px;
+  line-height: 160px;
+}
+
+.jumbotron {
+  position: relative;
+  padding: 40px 0;
+  color: white;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 1), 0 0 5px rgba(0, 0, 0, .075);
+  background: url(http://wallpoper.com/images/00/24/17/83/minecraft-panorama_00241783.jpg) no-repeat 0 0%;
+}
+
+.server {
+  position: relative;
+  padding: 40px 0;
+  color: white;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 1), 0 0 500px rgba(0, 0, 0, .075);
+}
+
+.bs-docs-social {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.bs-docs-social-buttons {
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.bs-docs-social-buttons li {
+  display: inline-block;
+  padding: 5px 8px;
+  line-height: 1;
+  *display: inline;
+  *zoom: 1;
+}
+
+.screen {
+    position: relative;
+    height: 100%; 
+    width: 20%; /*  NOTE:numVideos/100%  */
+    float: left;
+    overflow: hidden;
+}
+
+.wrapper {
+    position: absolute;
+    width: 500%;
+    height: 100%;
+    z-index: 0;
+}
+
+#toolbar {padding:2px; width:100%}
+#editor {width:100%; height:400px; border:2px inset ButtonShadow}
+
+
+/* Game Labels
+-------------------------------------------------- */
+
+.label-red,
+.badge-red {
+  background-color: #b94a48;
+}
+
+.label-red[href],
+.badge-red[href] {
+  background-color: #953b39;
+}
+
+.label-yellow,
+.badge-yellow {
+  background-color: #f89406;
+}
+
+.label-yellow[href],
+.badge-yellow[href] {
+  background-color: #c67605;
+}
+
+.label-green,
+.badge-green {
+  background-color: #468847;
+}
+
+.label-green[href],
+.badge-green[href] {
+  background-color: #356635;
+}
+
+.label-blue,
+.badge-blue {
+  background-color: #3a87ad;
+}
+
+.label-blue[href],
+.badge-blue[href] {
+  background-color: #2d6987;
+}
+
+
+
+/* Misc Font/Other Stuff
+-------------------------------------------------- */
+
+a.game {
+  margin-bottom: 20px;
+}
+
+a.game:hover {
+  text-decoration: none;
+}
+
+a.thumbnail:hover {
+  text-decoration: none;
+}
+
+.game {
+  text-align: center;
+  padding: 0px;
+}
+
+.game-image {
+  height: 180px; width: 290px; 
+}
+
+.command {
+  color: #00870C;
+  font-family: monospace;
+}
+
+
+.category {
+  font-weight: 400;
+  font-size: 15px;
+}

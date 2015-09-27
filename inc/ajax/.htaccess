@@ -1,0 +1,2 @@
+php_value include_path ".:/usr/share/php:/var/www/html"
+php_value auto_prepend_file inc/functions.php

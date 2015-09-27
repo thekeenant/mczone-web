@@ -1,0 +1,3 @@
+php_value include_path ".:/usr/share/php:/var/www/html"
+php_value auto_prepend_file none
+php_value auto_append_file inc/footer.php
